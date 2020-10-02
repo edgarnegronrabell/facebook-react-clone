@@ -5,7 +5,7 @@ import { Avatar } from "@material-ui/core";
 
 const SidebarRow = ({ src, Icon, title}) => {
 	return (
-		<div class="sidebarRow">
+		<div className="sidebarRow">
 			{src && <Avatar src={src} />}
 			{Icon && <Icon />}
 			<h4>{title}</h4>
@@ -13,4 +13,4 @@ const SidebarRow = ({ src, Icon, title}) => {
 	)
 }
 
-export default SidebarRow
+export default SidebarRow;

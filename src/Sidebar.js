@@ -12,14 +12,14 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 
-import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined';
+import { ExpandMoreOutlined } from '@material-ui/icons';
 
 const Sidebar = () => {
 	return (
 		<div className='sidebar'>
 			<SidebarRow 
-				src={user.photoURL} 
-				title={user.displayName} />
+				src='https://avatars0.githubusercontent.com/u/47069849?s=60&v=4'
+				title='Edgar Negron'/>
 			<SidebarRow 
 				Icon={LocalHospitalIcon}
 				title="COVID-19 Information Center"/>
@@ -39,7 +39,7 @@ const Sidebar = () => {
 			Icon={VideoLibraryIcon}
 			title="Videos" />
 						<SidebarRow 
-			Icon={ExpandMoreOutline}
+			Icon={ExpandMoreOutlined}
 			title="Marketplace" />
 		</div>
 	)
