@@ -13,12 +13,9 @@
 	border-bottom: 1px solid #eff2f5;
 	display: flex;
 	padding: 15px;
+	width: 100%;
 
 }
-.messageSender__bottom {
-	display: flex;
-}
-
 
 .messageSender__top > form {
 	display: flex;
@@ -43,10 +40,33 @@
 	display:flex;
 }
 
-.messageSender__option > h3 {
-	margin: 0  5px;
-}
 
 .messageSender__input {
 	flex: 1;
 }
+
+.messageSender__bottom {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.messageSender__option {
+	align-items: center;
+	color: gray;
+	display: flex;
+	margin:  5px;
+	padding: 20px;
+}
+
+.messageSender__option > h3 {
+	cursor: pointer;
+	font-size: medium;
+	margin-left: 10px;
+}
+
+.messageSender__option:hover {
+	background-color: #eff2f5;
+	border-radius: 20px;
+}
+
+
